@@ -1,0 +1,16 @@
+# Return custom error pages by error type
+ErrorDocument 404 /not-found.html
+ErrorDocument 403 /forbidden.html
+
+# 301 redirect all WWW subdomain traffic to the non-WWW equivalent
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^ %{ENV:PROTO}://%1%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+# Block directory access
+<IfModule mod_autoindex.c>
+Options -Indexes
+</IfModule>
