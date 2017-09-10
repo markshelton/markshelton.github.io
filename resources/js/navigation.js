@@ -32,4 +32,5 @@ $(document).ready(function(){
 });
 
 window.sr = ScrollReveal();
-sr.reveal('.intro-line', { duration: 2000 }, 1000);
+sr.reveal('.intro-line', { duration: 2000 }, 500);
+sr.reveal('#footer', 500);
