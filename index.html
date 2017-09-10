@@ -1,48 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+    <!-- Metadata -->
+    <base href="">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mark Shelton</title>
+    <link rel="shortcut icon" href="resources/images/favicon.ico" />
+    <link rel="canonical" href="https://markshelton.me" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">	
     <meta name="description" content="Mark Shelton: Software Engineer">
     <meta name="author" content="Mark Shelton">
-    <title>Mark Shelton</title>
-    <link rel="shortcut icon" href="resources/images/favicon.ico">
-    <link rel="apple-touch-icon" href="resources/images/icon.png" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <!-- Boostrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous" />
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" />
+    <script src="https://use.fontawesome.com/a18faebd66.js"></script>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="resources/css/style.css" />
+
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top" id ="myNav">
       <a class="navbar-brand" href="#">Mark Shelton</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#awards">Awards</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
+        <div class="navbar-nav mr-auto">
+          <a class="nav-item nav-link" href="#projects">Projects</a>
+          <a class="nav-item nav-link" href="#background">Background</a>
+          <a class="nav-item nav-link" href="#updates">Updates</a>
+        </div>
+        <div class="navbar-nav ml-auto nav-icon">
+            <a class="nav-item nav-link nav-icon" href="mailto:mark@shelton.id.au"><i class="fa fa-fw fa-envelope"></i></a>
+            <a class="nav-item nav-link nav-icon" href="https://www.linkedin.com/in/markrshelton"><i class="fa fa-linkedin"></i></a>
+            <a class="nav-item nav-link nav-icon" href="https://twitter.com/MarkSheltonWA"><i class="fa fa-twitter"></i></a>
+            <a class="nav-item nav-link nav-icon" href="https://github.com/markshelton"><i class="fa fa-github"></i></a>
+        </div>
       </div>
     </nav>
-    <div class="header">
+    
+    <!-- Header -->
+    <section id="header">
+      <div class="container">        
+      </div>  
+    </section>
+
+    <!-- Affiliations -->
+    <section id="affiliations">
       <div class="container">
+        <div class="row h-100 align-items-center text-center">
+          <div class="affiliate col-sm-2">
+            <img src="resources/images/bcg.png" title="Boston Consulting Group" class="img-fluid">
+          </div>
+          <div class="affiliate col-sm-2 col-xs-4">
+            <img src="resources/images/gs.png" title="Goldman Sachs" class="img-fluid">
+          </div>
+          <div class="affiliate col-sm-2 col-xs-4">
+            <img src="resources/images/bloom.png" title="Bloom" class="img-fluid">
+          </div>
+          <div class="affiliate col-sm-2 col-xs-4">
+            <img src="resources/images/startupwa.png" title="StartupWA" class="img-fluid">
+          </div>
+          <div class="affiliate col-sm-2 col-xs-4">
+            <img src="resources/images/uwa.png" title="University of Western Australia" class="img-fluid">
+          </div>
+          <div class="affiliate col-sm-2 col-xs-4">
+            <img src="resources/images/stanford.png" title="Stanford University" class="img-fluid">
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+
+    <!-- Intro -->
+    <section id="intro">
+      <div class="container">
+          <div class="offset-md-3 col-md-6">
+            <p> Hi! I'm Mark. Technology is core to our most pressing social challenges - structural unemployment, ethics in artificial intelligence, identity and censorship in the media, to name just a few. These are challenges that I tackle head-on.</p>
+          </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="no-padding-bottom"> 
+      <div class="container-fluid">
+        <div class="row no-space">
+          <div class="col-sm-4 col-md-3">
+            <div class="box"><a href="img/portfolio/paper-presentation.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Name of the work 1" data-footer="Description of Project No.1"><img src="img/portfolio/paper-presentation.jpg" alt="" class="img-responsive"></a></div>
+          </div>
+          <div class="col-sm-4 col-md-3">
+            <div class="box"><a href="img/portfolio/business-card-26.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Name of the work 2" data-footer="Fifth abundantly made Give sixth hath. Cattle creature i be don't them."><img src="img/portfolio/business-card-26.jpg" alt="" class="img-responsive"></a></div>
+          </div>
+          <div class="col-sm-4 col-md-3">
+            <div class="box"><a href="img/portfolio/gravity-paper.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Name of the work 3" data-footer="Fifth abundantly made Give sixth hath. Cattle creature i be don't them."><img src="img/portfolio/gravity-paper.jpg" alt="" class="img-responsive"></a></div>
+          </div>
+          <div class="col-sm-4 col-md-3">
+            <div class="box"><a href="img/portfolio/envelope-brand.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Name of the work 4" data-footer="Fifth abundantly made Give sixth hath. Cattle creature i be don't them."><img src="img/portfolio/envelope-brand.jpg" alt="" class="img-responsive"></a></div>
+          </div>
+          <div class="col-sm-4 col-md-3">
+            <div class="box"><a href="img/portfolio/business-card.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Name of the work 5" data-footer="Fifth abundantly made Give sixth hath. Cattle creature i be don't them."><img src="img/portfolio/business-card.jpg" alt="" class="img-responsive"></a></div>
+          </div>
+          <div class="col-sm-4 col-md-3">
+            <div class="box"><a href="img/portfolio/trifold.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Name of the work 6" data-footer="Fifth abundantly made Give sixth hath. Cattle creature i be don't them."><img src="img/portfolio/trifold.jpg" alt="" class="img-responsive"></a></div>
+          </div>
+          <div class="col-sm-4 col-md-3">
+            <div class="box"><a href="img/portfolio/label-clothes.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Name of the work 7" data-footer="Fifth abundantly made Give sixth hath. Cattle creature i be don't them."><img src="img/portfolio/label-clothes.jpg" alt="" class="img-responsive"></a></div>
+          </div>
+          <div class="col-sm-4 col-md-3">
+            <div class="box"><a href="img/portfolio/ipad-air-2.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Name of the work 8" data-footer="Fifth abundantly made Give sixth hath. Cattle creature i be don't them."><img src="img/portfolio/ipad-air-2.jpg" alt="" class="img-responsive"></a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Background --> 
+    <section id = "background">
+      <div class="container">
+        <div class="row">
+        <!-- Education -->
+        <!-- Experience -->
+        <!-- Awards -->
+        </div>
+        <div class="row">
+          <!-- Download -->
+          <div class="col-md-12 text-center">
+            <a class="btn btn-primary" href= "resources/docs/Resume.pdf">
+              Download Resume (pdf)
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Updates -->
+    <section id = "updates">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <a class="twitter-timeline" 
+              data-dnt="true" data-height=500
+              href="https://twitter.com/MarkSheltonWA">
+              Tweets by MarkSheltonWA
+            </a>
+          </div>
+          <div class="col-md-6">
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap Javascript -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+    <!-- Social Javascript -->
+    <script async src="https://platform.twitter.com/widgets.js"></script>
+
+    <!-- Custom Javascript -->
+    <script src="resources/js/navigation.js"></script>
+
   </body>
 </html>
