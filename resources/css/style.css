@@ -32,6 +32,16 @@ h6 {
   font-weight: 700;
 }
 
+h1 {
+  color: #3399ff;
+}
+
+h1:hover {
+  color: #003E7E;
+  cursor: default; 
+}
+
+
 section {
   padding: 100px 0;
   border-bottom:solid 1px #eee;
