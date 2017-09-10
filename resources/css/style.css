@@ -10,12 +10,16 @@ p {
 p.small {
   font-size: 16px; }
 
-a,
+a {
+  color: #3399ff;
+  outline: none;
+}
+
 a.active,
 a:active,
 a:focus,
 a:hover {
-  color: #18BC9C;
+  color: #003E7E;
   outline: none; }
 
 h1,
@@ -30,6 +34,7 @@ h6 {
 
 section {
   padding: 100px 0;
+  border-bottom:solid 1px #eee;
 }
 
 section h2 {
@@ -73,6 +78,7 @@ section h2 {
     display:inline-block;
     padding: 10px 0px;
     max-height: 100px;
+    max-width: 150px;
     -webkit-filter:grayscale(100%);
     filter:grayscale(100%)
 }
@@ -83,6 +89,10 @@ section h2 {
 }
 
 /* Introduction */
+
+#intro p {
+  max-width: 400px;
+}
 
 /* Projects */
 
@@ -113,4 +123,13 @@ a.twitter-timeline:focus {
 a.twitter-timeline:focus {
   outline: none;
   border-color: #0089cb;
+}
+
+/* Footer */
+
+#footer {
+  background:#f7f7f7;
+  border-top:solid 1px #ddd;
+  border-bottom:solid 1px #eee;
+  padding: 25px 0;
 }

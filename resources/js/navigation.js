@@ -21,6 +21,7 @@ $(document).ready(function(){
     $navBar.toggleClass('scrolled', 
       $(this).scrollTop() > $header.height() - $navBar.height()
     );
+
   });
 
   $('body').scrollspy({
@@ -29,3 +30,6 @@ $(document).ready(function(){
   });
 
 });
+
+window.sr = ScrollReveal();
+sr.reveal('.intro-line', { duration: 2000 }, 1000);
