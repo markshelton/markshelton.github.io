@@ -54,12 +54,6 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
-        <!--
-        <div class="navbar-nav mr-auto">
-          <a class="nav-item nav-link" href="#projects">Projects</a>
-          <a class="nav-item nav-link" href="#background">Background</a>
-          <a class="nav-item nav-link" href="#updates">Updates</a>
-        </div> -->
         <div class="navbar-nav ml-auto nav-icon">
             <a class="nav-item nav-link nav-icon" href="mailto:mark@shelton.id.au"><i class="fa fa-fw fa-envelope"></i></a>
             <a class="nav-item nav-link nav-icon" href="https://www.linkedin.com/in/markrshelton"><i class="fa fa-linkedin"></i></a>
@@ -79,23 +73,41 @@
     <section id="affiliations">
       <div class="container">
         <div class="row h-100 align-items-center text-center">
-          <div class="affiliate col-sm-2">
-            <a href="https://www.bcg.com/"><img src="resources/images/background/bcg.png" title="Boston Consulting Group" class="img-fluid"></a>
+          <div class="affiliate col-sm-2 col-xs-4">
+            <img src="resources/images/background/bcg.png" class="img-fluid"
+            tabindex="-1" data-toggle="popover" data-trigger="hover" data-placement="bottom" 
+            title="Associate Consultant (Intern)" 
+            data-content="I examined the operations of a multi-national resources firm and delivered it in a 1.5-hour presentation to the Perth Partner MD. I was offered a graduate role." >
           </div>
           <div class="affiliate col-sm-2 col-xs-4">
-            <a href="http://www.goldmansachs.com/"><img src="resources/images/background/gs.png" title="Goldman Sachs" class="img-fluid"></a>
+            <img src="resources/images/background/gs.png" class="img-fluid" 
+            tabindex="-1" data-toggle="popover" data-trigger="hover" data-placement="bottom" 
+            title="Investment Banking Analyst (Intern)"
+            data-content="I developed a private equity investment pitch for an ASX 200 consumer target, presented to the M&amp;A / financial sponsors team. I was offered a graduate role.">
           </div>
           <div class="affiliate col-sm-2 col-xs-4">
-            <a href="http://bloom.org.au/"><img src="resources/images/background/bloom.png" title="Bloom" class="img-fluid"></a>
+            <img src="resources/images/background/bloom.png" class="img-fluid"
+            tabindex="-1" data-toggle="popover" data-trigger="hover" data-placement="bottom" 
+            title="Co-Founder and CEO (2013-17)"
+            data-content="Bloom is a non-profit that encourages young entrepreneurs. Bloom runs events attended by thousands of young people and supports 50 young entrepreneurs at its co-working space.">
           </div>
           <div class="affiliate col-sm-2 col-xs-4">
-            <a href="http://startupwa.org/"><img src="resources/images/background/startupwa.png" title="StartupWA" class="img-fluid"></a>
+            <img src="resources/images/background/startupwa.png" class="img-fluid"
+            tabindex="-1" data-toggle="popover" data-trigger="hover" data-placement="bottom" 
+            title="Co-Founder and Director (2015-17)"
+            data-content="StartupWA is an advocacy body for the growing technology startup sector in WA. I advised on policy, reports and briefings to government and industry.">
           </div>
           <div class="affiliate col-sm-2 col-xs-4">
-            <a href="http://uwa.edu.au/"><img src="resources/images/background/uwa.png" title="University of Western Australia"  class="img-fluid"></a>
+            <img src="resources/images/background/uwa.png" class="img-fluid"
+            tabindex="-1" data-toggle="popover" data-trigger="hover" data-placement="bottom" 
+            title="BPhil(Hons) in Computer Science &amp; Psychology"
+            data-content="My honours thesis titled `Towards Automated Venture Capital Screening` was awarded 90%. I achieved outstanding academic results (Average Mark: 84%, GPA: 6.8/7.0)">
           </div>
           <div class="affiliate col-sm-2 col-xs-4">
-            <a href="https://www.stanford.edu/"><img src="resources/images/background/stanford.png" title="Stanford University" class="img-fluid"></a>
+            <img src="resources/images/background/stanford.png" class="img-fluid"
+            tabindex="-1" data-toggle="popover" data-trigger="hover" data-placement="bottom" 
+            title="Certificate of Computer Science"
+            data-content="I participated in the invite-only Stanford Summer International Honours Program and studied classes in computer science and entrepreneurship.">
           </div>
         </div>
       </div>
@@ -104,12 +116,12 @@
     <!-- Intro -->
     <section id="intro">
       <div class="container">
-        <div class="d-flex justify-content-center">
-          <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-6">
             <div class="text-center">
               <img class="img-fluid rounded-circle" style = "max-height: 200px;" src="resources/images/mark_headshot2.jpg">
               </img>
-            <hr></hr>
+              <hr></hr>
               <a class="btn btn-primary" href= "resources/docs/Resume.pdf">
               Download my resume
               </a>
@@ -135,23 +147,14 @@
               <a class="nav-item nav-link nav-icon" href="https://github.com/markshelton"><i class="fa fa-github"></i></a>
             </div>
           </div>
-          
         </div>
       </div>
     </section>
 
     <section id="footer">
       <div class="container text-center">
-        <p class="small"> Based in Perth, Western Australia <p>
+        <p class="small"> Based in Perth, Western Australia.<p>
       </div>
-      <!--
-      <div class="container text-center">
-        <h6>Want to work together? Get in contact!</h6>
-        <a class="nav-item nav-link nav-icon" href="mailto:mark@shelton.id.au"><i class="fa fa-fw fa-envelope"></i></a>
-        <a class="nav-item nav-link nav-icon" href="https://www.linkedin.com/in/markrshelton"><i class="fa fa-linkedin"></i></a>
-        <a class="nav-item nav-link nav-icon" href="https://twitter.com/MarkSheltonWA"><i class="fa fa-twitter"></i></a>
-        <a class="nav-item nav-link nav-icon" href="https://github.com/markshelton"><i class="fa fa-github"></i></a>
-      </div> -->
     </section>
 
     <!-- Bootstrap Javascript -->
@@ -160,6 +163,7 @@
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
     <!-- Plugin Javascript -->
@@ -168,6 +172,12 @@
 
     <!-- Custom Javascript -->
     <script src="resources/js/navigation.js"></script>
+
+    <script>
+      $(function () {
+        $('[data-toggle="popover"]').popover()
+      })
+    </script>
 
   </body>
 </html>
