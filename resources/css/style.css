@@ -36,14 +36,14 @@ h1 {
   color: #3399ff;
 }
 
-h1:hover {
+/* h1:hover {
   color: #003E7E;
   cursor: default; 
-}
+} */
 
 section {
   padding: 100px 0;
-  border-bottom:solid 1px #eee;
+  /* border-bottom:solid 1px #eee; */
 }
 
 /* Navigation */
@@ -74,7 +74,7 @@ section {
 #affiliations {
   background:#f7f7f7;
   border-top:solid 1px #eee;
-  border-bottom:solid 1px #eee;
+  /* border-bottom:solid 1px #eee; */
   padding: 50px 0;
 }
 
@@ -114,8 +114,16 @@ section {
 /* Footer */
 
 #footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background:#f7f7f7;
   border-top:solid 1px #ddd;
   border-bottom:solid 1px #eee;
   padding: 25px 0;
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
 }
