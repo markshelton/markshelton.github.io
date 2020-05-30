@@ -2,13 +2,10 @@
 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  overflow-x: hidden; }
-
-p {
-  font-size: 20px; }
-
-p.small {
-  font-size: 16px; }
+  overflow-x: hidden; 
+  font-size:1em;
+  text-align:Left;
+}
 
 a {
   color: #3399ff;
@@ -22,108 +19,28 @@ a:hover {
   color: #003E7E;
   outline: none; }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-}
-
 h1 {
   color: #3399ff;
+  font-size: 2em;
 }
 
-/* h1:hover {
-  color: #003E7E;
-  cursor: default; 
+h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+/* ul{
+  list-style: none;
 } */
 
-section {
-  padding: 100px 0;
-  /* border-bottom:solid 1px #eee; */
+li {
+  margin: 0.3em 0;
 }
 
-/* Navigation */
-
-.nav-icon {
-  display: inline-block !important;
+p {
+  margin: 0.5em 0;
 }
 
-.navbar.fixed-top.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear;
-}
-
-/* Header */
-
-#header {
-  padding: 0px; margin: 0px;
-  min-height: 100vh;
-  background: url(../images/header/header-2500.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-/* Affiliations */
-
-#affiliations {
-  background:#f7f7f7;
-  border-top:solid 1px #eee;
-  /* border-bottom:solid 1px #eee; */
-  padding: 50px 0;
-}
-
-.affiliate img {
-    display:inline-block;
-    padding: 10px 0px;
-    max-height: 100px;
-    -webkit-filter:grayscale(100%);
-    filter:grayscale(100%)
-}
-
-.affiliate img:hover {
-    -webkit-filter:grayscale(0);
-    filter:grayscale(0)
-}
-
-/* Introduction */
-
-#intro p {
-  max-width: 400px;
-}
-
-/* Projects */
-
-.project img {
-  display:inline-block;
-  padding: 0px 25px;
-  max-height: 150px;
-}
-
-/* Background */
-
-#background .row {
-  padding: 25px 0;
-}
-
-/* Footer */
-
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background:#f7f7f7;
-  border-top:solid 1px #ddd;
-  border-bottom:solid 1px #eee;
-  padding: 25px 0;
-}
-
-.page-container {
-  position: relative;
-  min-height: 100vh;
+.billboard {
+  padding-top: 80px;
 }
