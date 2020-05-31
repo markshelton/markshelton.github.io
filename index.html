@@ -5,13 +5,12 @@
 
   <!-- Metadata -->
   <base href="">
-  <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Mark Shelton</title>
   <link rel="canonical" href="https://markshelton.me" />
   <link rel="author" href="https://plus.google.com/u/0/+MarkShelton13" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="title" content="Mark Shelton | Product Manager">
   <meta name="description"
     content="Mark Shelton is a Product Manager / Engineer. He has worked with Microsoft, Bloom, StartupWA, Goldman Sachs and BCG.">
@@ -29,12 +28,12 @@
   <meta name="twitter:description"
     content="Mark Shelton is a Product Manager / Engineer. He has worked with Microsoft, Bloom, StartupWA, Goldman Sachs and BCG.">
   <meta name="twitter:creator" content="@marksheltonisme">
-  <meta name="twitter:image:src" content="http://markshelton.me/resources/images/mark_headshot.jpg">
+  <meta name="twitter:image:src" content="http://markshelton.me/images/mark_headshot.jpg">
 
   <meta property="og:title" content="Mark Shelton | Product Manager" />
-  <meta property=”og:type” content="website" />
+  <meta property="og:type" content="website" />
   <meta property="og:url" content="http://www.markshelton.me/" />
-  <meta property="og:image" content="http://markshelton.me/resources/images/mark_headshot.jpg" />
+  <meta property="og:image" content="http://markshelton.me/images/mark_headshot.jpg" />
   <meta property="og:description"
     content="Mark Shelton is a Product Manager / Engineer. He was a John Monash Scholar at Stanford University, the Co-Founder &amp; CEO of Bloom, and worked at Goldman Sachs and BCG." />
   <meta property="og:site_name" content="Mark Shelton | Product Manager" />
@@ -56,7 +55,7 @@
   <script src="https://use.fontawesome.com/a18faebd66.js"></script>
 
   <!-- Custom Styles -->
-  <link rel="stylesheet" href="resources/css/style.css" />
+  <link rel="stylesheet" href="css/style.css" />
 
   <!-- Google Analytics Tags -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-63922480-1"></script>
@@ -78,16 +77,29 @@
       <br />
       <p><b>Next:</b> Product Manager at <a href="https://www.microsoftedgeinsider.com/" target="_blank">Microsoft</a>
       </p>
-      <p><b>Current:</b> MS MS&E Student at <a href="https://msande.stanford.edu/" target="_blank">Stanford</a></p>
+      <p><b>Education:</b> </p>
+      <ul>
+        <li>
+          MS Management Science &amp; Engineering at <a href="https://msande.stanford.edu/" target="_blank">Stanford</a>
+        </li>
+        <li>
+          BPhil(Hons) Computer Science at <a href="https://www.uwa.edu.au/study/courses/bachelor-of-philosophy"
+            target="_blank">UWA</a>
+        </li>
+      </ul>
       <p><b>Previous:</b> </p>
       <ul>
         <li>Co-Founder &amp; CEO at <a href="https://www.bloom.org.au/" target="_blank">Bloom</a></li>
         <li>Founding Director at <a href="https://www.startupwa.org/" target="_blank">StartupWA</a></li>
-        <li>Software Engineer at <a href="https://pawsey.org.au/" target="_blank">Pawsey Supercomputing Centre</a>
+        <li>Software Engineer<a class="intern" href="#" data-toggle="tooltip" title="Intern"><sup>*</sup></a> at
+          <a href="https://pawsey.org.au/" target="_blank">Pawsey Supercomputing
+            Centre</a>
         </li>
-        <li>Investment Banking Analyst at <a href="https://www.goldmansachs.com/what-we-do/investment-banking/"
-            target="_blank">Goldman Sachs</a></li>
-        <li>Associate Consultant at <a href="https://www.bcg.com/" target="_blank">The Boston Consulting Group (BCG)</a>
+        <li>Investment Banking Analyst<a class="intern" href="#" data-toggle="tooltip" title="Intern"><sup>*</sup></a>
+          at <a href="https://www.goldmansachs.com/what-we-do/investment-banking/" target="_blank">Goldman Sachs</a>
+        </li>
+        <li>Associate Consultant<a class="intern" href="#" data-toggle="tooltip" title="Intern"><sup>*</sup></a> at <a
+            href="https://www.bcg.com/" target="_blank">The Boston Consulting Group (BCG)</a>
         </li>
       </ul>
       <br />
@@ -96,6 +108,7 @@
         <a href="https://twitter.com/marksheltonisme" target="_blank">Twitter</a> and
         <a href="https://github.com/markshelton" target="_blank">GitHub</a>.
       </p>
+      <p>Check out my <a href="docs/Resume.pdf" target="_blank">Resume</a> [April 2020].</p>
     </div>
   </div>
 
@@ -109,6 +122,12 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
 
 </body>
 
